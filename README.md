@@ -22,3 +22,23 @@ Kelas: B2024
 
 
 ![Screenshot (59)](https://github.com/user-attachments/assets/3dc5014c-f3f9-461b-afd8-811a4031e31f)
+
+
+
+penjelasan:
+Baris 6-8 adalah untuk mencetak pesan "Selamat Datang Dan Selamat Berbelanja Di Toko Kmami"
+print("\n==================================================")
+print("Selamat Datang dan Selamat Berbelanja Di Toko Kami")
+print("==================================================\n")
+
+
+baris 10
+Ini adalah awal dari perulangan while yang terus berjalan hingga program menemukan kondisi
+while True:
+
+Mencetak kata "Hallo Pengunjung Menampilkan pilihan kepada pengguna, apakah ingin berbelanja atau tidak. input()
+digunakan untuk mengambil pilihan dari pengguna dalam bentuk angka, dan int() mengonversi input dari string menjadi integ
+print("\nHallo Pengunjung")
+    pilihan = int(input("""1. Tidak Berbelanja,
+2. Berbelanja: """))
+
