@@ -97,4 +97,55 @@ elif pilihan == 2:
                     total = harga_barang * jumlah_yang_dibeli
 
 
+barisan 43-50
+jika total harga barang lebih dari 250.000, 
+diskon 25% diterapkan. 
+total yang dibayar dihitung dengan mengalikan total dengan 0.75, dan hasilnya ditampilkan
+kalau total kurang dari 0 (kasus yang tidak mungkin dalam perhitungan normal), program menampilkan pesan "Tidak Ada"
+kalau totalnya 250.000 atau kurang, program nampilkan total tanpa diskon,dan muncul tulisan "maaf anda tidak mendapat diskon"
+ if total > 250000:
+                        total_diskon = total * 0.75
+                        print(f"Total pembayaran setelah diskon: RP.{total_diskon}")
+                    elif total < 0:
+                        print("Jumlah barang tidak valid.")
+                    else:
+                        print(f"\nTotal pembayaran: RP.{total}")
+                        print("Maaf anda tidak mendapat diskon:D")
+
+
+barisan 53-62
+memunculkan perulangan unttuk muncul opsi menghitung lagi atau tidak
+kalau ya maka akan kembali ke perhitungan
+kalau tidak maka akan muncul tulisan "Terima kasih sudah berbelanja di tempat kami, jangan lupa datang lagi!"
+kalau memilih opsi yang berbeda dari pilihan akan muncul tulisan "Input tidak valid, maaf"
+ulangi = input("\nApakah Anda ingin menghitung ulang lagi? (ya/tidak): ")
+if ulangi == "ya":
+                        continue  # kembali ke perhitungan
+                    elif ulangi == "tidak":
+                        print("\nTerima kasih sudah berbelanja di tempat kami, jangan lupa datang lagi!.")
+                        break  # keluar dari loop menghitung
+                    else:
+                        print("\nInput tidak valid, Maaf.")
+                        break
+                        
+
+barisan 64-65
+fungsi untuk menangani kasus di mana pengunjung memasukkan input yang tidak valid ketika 
+diminta untuk memilih antara menghitung (pilihan 2) atau kembali (pilihan 1), misal ke pilihan 3 yang tidak ada
+else:
+            print("\nMaaf, data tidak sesuai")
+
+
+barisan 67-68
+ Kode ini fungsi untuk memberi tahu pengguna bahwa data yang mereka masukkan tidak sesuai ketika mencoba memverifikasi nama dan NIM
+print("\nMaaf, data tidak sesuai")
+    else:
+
+
+barisan 69-70
+Kode ini digunakan untuk menangani kasus di mana pengunjung memasukkan pilihan yang tidak ada saat diminta memilih antara Tidak Berbelanja (1) 
+atau Berbelanja (2). kalau pengunjung memasukkan angka selain 1 atau 2, maka program akan menampilkan pesan "Pilihan tidak ada".
+else:
+        print("Pilihan tidak ada")
+
 
