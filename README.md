@@ -36,17 +36,23 @@ baris 10
 Ini adalah awal dari perulangan while yang terus berjalan hingga program menemukan kondisi
 while True:
 
+
+barisan 10-13
 mencetak kata "Hallo Pengunjung Menampilkan pilihan kepada pengguna, apakah ingin berbelanja atau tidak. input()
 digunakan untuk mengambil pilihan dari pengguna dalam bentuk angka, dan int() mengonversi input dari string menjadi integ
 print("\nHallo Pengunjung")
     pilihan = int(input("""1. Tidak Berbelanja,
 2. Berbelanja: """))
 
+
+barisan 15-17
 kalau pengunjung memilih 1 (Tidak Berbelanja), perulangan akan dihentikan dengan break, sehingga program keluar dari loop.
 if pilihan == 1:
         print("\nTerima kasih telah berkunjung!")
         break 
 
+
+barisan 19-24
 kalau pengunjung memilih 2 (Berbelanja), maka program akan masuk ke blok kode berikutnya untuk mengisi data pembeli.
 mengambil input nama pengguna dan menyimpannya dalam variabel NAMA.
 mengambil input NIM pengguna dan mengonversinya menjadi integer, disimpan dalam variabel NIM
@@ -57,11 +63,15 @@ elif pilihan == 2:
         nama = input("Masukkan Nama Anda Lagi: ")
         nim = int(input("Masukkan NIM Anda Lagi: "))
 
+
+barisan 24-28
 meminta masukkan kembali nama dan NIM untuk verifikasi. Data yang diambil disimpan di variabel nama dan nim.
 if NAMA == nama and NIM == nim:
             print("""\nData Berhasil Diverifikasi,
 Terima Kasih""")
 
+
+barisan 30-32
 Menampilkan pilihan kepada pengunjung apakah ingin berbelanja atau tidak. 
 input() digunakan untuk mengambil pilihan dari pengguna dalam bentuk angka, 
 dan int() mengonversi input dari string menjadi integer.
@@ -69,6 +79,8 @@ dan int() mengonversi input dari string menjadi integer.
                 pilihan = int(input("""\n1. Kembali,
 2. Hitung harga dan jumlah barang saya!: """))
 
+
+barisan 34-36
 kalau pengunjung memilih 1 (Tidak Berbelanja),
 perulangan akan dihentikan dengan break, sehingga program keluar dari loop.
 if pilihan == 1:
@@ -76,6 +88,7 @@ if pilihan == 1:
                     break
 
 
+barisan 38-41
 jika pengunjung memilih 2 (Berbelanja), 
 maka program akan masuk ke blok kode berikutnya untuk mengisi data pembeli.
 elif pilihan == 2:
