@@ -6,6 +6,8 @@ Kelas: B2024
 ![flowchartnya](https://github.com/user-attachments/assets/6a07ea6c-fe7f-4d84-9318-70fa5fca1f71)
 
 
+
+
 ![Screenshot (60)](https://github.com/user-attachments/assets/c528f743-bc7d-4b07-b9e1-b8afb996d805)
 
 
