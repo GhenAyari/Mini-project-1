@@ -12,7 +12,7 @@ Kelas: B2024
 
 
 ![Screenshot (61)](https://github.com/user-attachments/assets/bc554fe6-a08c-4517-b8fa-24584af22110)
-
+Ini adalah jika memilih angka 1. yaitu tidak berbelanja maka akan break, dan muncul "Terima kasih telah berkunjung
 
 ![Screenshot (62)](https://github.com/user-attachments/assets/d1b41f8a-83db-494c-a408-b8c701007f4e)
 
