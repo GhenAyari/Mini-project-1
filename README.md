@@ -15,7 +15,8 @@ Kelas: B2024
 Ini adalah jika memilih angka 1. yaitu tidak berbelanja maka akan break, dan muncul "Terima kasih telah berkunjung
 
 ![Screenshot (62)](https://github.com/user-attachments/assets/d1b41f8a-83db-494c-a408-b8c701007f4e)
-
+ini adalah jika memilih pilihan 2 akan muncul  opsi masukkan nama, nim. lalu disuruh masukkan data lagi yang kita tulis tadi
+dan jika salah atau tidak sama dengan yang kita masukkan tadi maka akan muncul tulisan "Maaf, data tidak sesuai"
 
 ![Screenshot (63)](https://github.com/user-attachments/assets/959fc30f-caeb-41ff-86d8-64827a426112)
 
