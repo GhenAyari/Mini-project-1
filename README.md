@@ -19,7 +19,9 @@ ini adalah jika memilih pilihan 2 akan muncul  opsi masukkan nama, nim. lalu dis
 dan jika salah atau tidak sama dengan yang kita masukkan tadi maka akan muncul tulisan "Maaf, data tidak sesuai"
 
 ![Screenshot (63)](https://github.com/user-attachments/assets/959fc30f-caeb-41ff-86d8-64827a426112)
-
+ini sama seperti yang sebelumnya bedanya kali ini kita memasukkan nama dan nim sama dengan yang pertama. hasilnya akan muncul 
+"Data berhasil diverifikasi" 
+jika kita memilih opsi 2 maka akan muncul input harga baraang dan jumlah barang. jika dibawah RP250000 maka "Maaf anda tidak mendapat diskon"
 
 ![Screenshot (56)](https://github.com/user-attachments/assets/aa6f245b-3683-4d86-bea4-402492920952)
 
